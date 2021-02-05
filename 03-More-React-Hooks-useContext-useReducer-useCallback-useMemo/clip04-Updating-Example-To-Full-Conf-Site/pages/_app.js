@@ -5,3 +5,5 @@ import '../public/static/site.css';
 export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
+
+//boiler plate for all file in pages

@@ -8,6 +8,7 @@ function EmailValidatingForm() {
   };
   const [emailValid, setEmailValid] = useState(false);
   const emailReducer = (state, action) => {
+    console.log(action)
     const isValidEmail = validateEmail(action);
     setEmailValid(isValidEmail);
     return action;

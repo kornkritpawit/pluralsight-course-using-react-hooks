@@ -77,7 +77,7 @@ const Speakers = ({}) => {
           return 0;
         }),
     [speakingSaturday, speakingSunday, speakerList],
-  );
+  ); //do function and cache value, dependency change  do funciton
 
   const speakerListFiltered = isLoading ? [] : newSpeakerList;
 
